@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DCECD83-B927-4FD0-BD80-B600156F1871}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7DCECD83-B927-4FD0-BD80-B600156F1871}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{128DAF4D-D8E4-4036-B503-5790AF783578}">
+					<ObjectInclusionList>
+						<ObjectRef Name="note_sequence" ID="{A858D3AA-4F53-4906-9339-EEFA7D8B6C36}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="note_sequence_01" ID="{09C4C38F-1E01-4A30-AFB1-B10D244CE518}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_chord_playlist" ID="{7220E8BA-75C3-4B8D-A179-EF3C3B1E923D}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<Folder Name="Sounds" ID="{8A157B57-FA81-4CA1-B065-7399CBFF12EE}" ShortID="924646395"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

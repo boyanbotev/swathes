@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fede54e909d9f24bb0a107a6dd225a1, type: 3}
+  m_Name: 09C4C38F-1E01-4A30-AFB1-B10D244CE518
+  m_EditorClassIdentifier: 
+  objectName: note_sequence_01
+  id: 2995275875
+  guid: 09C4C38F-1E01-4A30-AFB1-B10D244CE518

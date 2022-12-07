@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7ED5D833-3CBF-4007-9B1C-3CCDB35AD496}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7ED5D833-3CBF-4007-9B1C-3CCDB35AD496}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="soundcaster_01" ID="{5128A1F2-BFE7-4148-A5DB-609F2828D42D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_chord_playlist" ID="{7220E8BA-75C3-4B8D-A179-EF3C3B1E923D}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="chord switch" ID="{2A0607B4-5D10-4C79-B8AA-CC54670EE739}" WorkUnitID="{A7E32612-3B35-4306-9406-A891BC1C1314}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="note_sequence" ID="{A858D3AA-4F53-4906-9339-EEFA7D8B6C36}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="note_sequence_01" ID="{09C4C38F-1E01-4A30-AFB1-B10D244CE518}" WorkUnitID="{E943F629-6FE0-4E7C-96A6-0E215C769DBC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Chord_sequence" ID="{49C1DF0D-9CC4-47C7-A062-C1A2979714BE}" WorkUnitID="{F05D6D0C-AA43-48BD-A59B-7F89B73E5D44}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

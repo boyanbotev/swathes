@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	28375135	note_sequence			\Default Work Unit\note_sequence	
+	2776835297	Play_chord_playlist			\Default Work Unit\Play_chord_playlist	
+	2995275875	note_sequence_01			\Default Work Unit\note_sequence_01	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40858944	fog note a1	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a1		617464
+	57369920	fog note a2	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a2		617464
+	58554642	fog note b7	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b7		617464
+	63812246	fog note b12	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b12		617464
+	85709457	fog note b9	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b9		617464
+	128526324	fog note a4	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a4		617464
+	202602954	fog note a7	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a7		617464
+	255046684	fog note b3	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b3		617464
+	255628299	fog note b1	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b1		617464
+	392881996	fog note a13	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a13		617464
+	400037269	fog note b6	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b6		617464
+	503880689	fog note b8	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b8		617464
+	509553258	fog note b14	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b14		617464
+	545553520	fog note b2	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b2		617464
+	582690647	fog note a11	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a11		617464
+	610301963	fog note a14	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a14		617464
+	625792018	fog note a15	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a15		617464
+	634550906	Mysterious Fog chord 3	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\Mysterious Fog chord 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\chord playlist\Mysterious Fog chord 3\Mysterious Fog chord 3		1146664
+	642637046	fog note b11	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b11		617464
+	733407181	fog note a10	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a10		617464
+	734302901	Mysterious Fog chord 1	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\Mysterious Fog chord 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\chord playlist\Mysterious Fog chord 1\Mysterious Fog chord 1		1146664
+	752165050	fog note a12	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a12		617464
+	771608856	fog note a5	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a5		617464
+	805022650	fog note a3	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a3		617464
+	808405924	fog note a6	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a6		617464
+	811808185	fog note b13	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b13		617464
+	818934923	Mysterious Fog chord 4	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\Mysterious Fog chord 4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\chord playlist\Mysterious Fog chord 4\Mysterious Fog chord 4		970264
+	846932330	Mysterious Fog chord 2	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\Mysterious Fog chord 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\chord playlist\Mysterious Fog chord 2\Mysterious Fog chord 2		970264
+	865272793	fog note b10	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b10		617464
+	915422368	fog note b4	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b4		617464
+	973379944	fog note a9	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a9		617464
+	1003325809	fog note a8	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note a8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence\fog note a8		617464
+	1048429623	fog note b15	C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\SFX\fog note b15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\note sequence_01\fog note b15		617464
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Boyan Botev\Documents\AI Course\Pixel 3D\Pixel 3D_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1645795224">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1580838792">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="28375135" Name="note_sequence" ObjectPath="\Events\Default Work Unit\note_sequence" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<IncludedMemoryFiles>
+						<File Id="40858944" Language="SFX">
+							<ShortName>fog note a1.wav</ShortName>
+							<Path>SFX\fog note a1_10C4C929.wem</Path>
+						</File>
+						<File Id="57369920" Language="SFX">
+							<ShortName>fog note a2.wav</ShortName>
+							<Path>SFX\fog note a2_10C4C929.wem</Path>
+						</File>
+						<File Id="128526324" Language="SFX">
+							<ShortName>fog note a4.wav</ShortName>
+							<Path>SFX\fog note a4_10C4C929.wem</Path>
+						</File>
+						<File Id="202602954" Language="SFX">
+							<ShortName>fog note a7.wav</ShortName>
+							<Path>SFX\fog note a7_10C4C929.wem</Path>
+						</File>
+						<File Id="392881996" Language="SFX">
+							<ShortName>fog note a13.wav</ShortName>
+							<Path>SFX\fog note a13_10C4C929.wem</Path>
+						</File>
+						<File Id="582690647" Language="SFX">
+							<ShortName>fog note a11.wav</ShortName>
+							<Path>SFX\fog note a11_10C4C929.wem</Path>
+						</File>
+						<File Id="610301963" Language="SFX">
+							<ShortName>fog note a14.wav</ShortName>
+							<Path>SFX\fog note a14_10C4C929.wem</Path>
+						</File>
+						<File Id="625792018" Language="SFX">
+							<ShortName>fog note a15.wav</ShortName>
+							<Path>SFX\fog note a15_10C4C929.wem</Path>
+						</File>
+						<File Id="733407181" Language="SFX">
+							<ShortName>fog note a10.wav</ShortName>
+							<Path>SFX\fog note a10_10C4C929.wem</Path>
+						</File>
+						<File Id="752165050" Language="SFX">
+							<ShortName>fog note a12.wav</ShortName>
+							<Path>SFX\fog note a12_10C4C929.wem</Path>
+						</File>
+						<File Id="771608856" Language="SFX">
+							<ShortName>fog note a5.wav</ShortName>
+							<Path>SFX\fog note a5_10C4C929.wem</Path>
+						</File>
+						<File Id="805022650" Language="SFX">
+							<ShortName>fog note a3.wav</ShortName>
+							<Path>SFX\fog note a3_10C4C929.wem</Path>
+						</File>
+						<File Id="808405924" Language="SFX">
+							<ShortName>fog note a6.wav</ShortName>
+							<Path>SFX\fog note a6_10C4C929.wem</Path>
+						</File>
+						<File Id="973379944" Language="SFX">
+							<ShortName>fog note a9.wav</ShortName>
+							<Path>SFX\fog note a9_10C4C929.wem</Path>
+						</File>
+						<File Id="1003325809" Language="SFX">
+							<ShortName>fog note a8.wav</ShortName>
+							<Path>SFX\fog note a8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2995275875" Name="note_sequence_01" ObjectPath="\Events\Default Work Unit\note_sequence_01" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+					<IncludedMemoryFiles>
+						<File Id="58554642" Language="SFX">
+							<ShortName>fog note b7.wav</ShortName>
+							<Path>SFX\fog note b7_10C4C929.wem</Path>
+						</File>
+						<File Id="63812246" Language="SFX">
+							<ShortName>fog note b12.wav</ShortName>
+							<Path>SFX\fog note b12_10C4C929.wem</Path>
+						</File>
+						<File Id="85709457" Language="SFX">
+							<ShortName>fog note b9.wav</ShortName>
+							<Path>SFX\fog note b9_10C4C929.wem</Path>
+						</File>
+						<File Id="255046684" Language="SFX">
+							<ShortName>fog note b3.wav</ShortName>
+							<Path>SFX\fog note b3_10C4C929.wem</Path>
+						</File>
+						<File Id="255628299" Language="SFX">
+							<ShortName>fog note b1.wav</ShortName>
+							<Path>SFX\fog note b1_10C4C929.wem</Path>
+						</File>
+						<File Id="400037269" Language="SFX">
+							<ShortName>fog note b6.wav</ShortName>
+							<Path>SFX\fog note b6_10C4C929.wem</Path>
+						</File>
+						<File Id="503880689" Language="SFX">
+							<ShortName>fog note b8.wav</ShortName>
+							<Path>SFX\fog note b8_10C4C929.wem</Path>
+						</File>
+						<File Id="509553258" Language="SFX">
+							<ShortName>fog note b14.wav</ShortName>
+							<Path>SFX\fog note b14_10C4C929.wem</Path>
+						</File>
+						<File Id="545553520" Language="SFX">
+							<ShortName>fog note b2.wav</ShortName>
+							<Path>SFX\fog note b2_10C4C929.wem</Path>
+						</File>
+						<File Id="642637046" Language="SFX">
+							<ShortName>fog note b11.wav</ShortName>
+							<Path>SFX\fog note b11_10C4C929.wem</Path>
+						</File>
+						<File Id="811808185" Language="SFX">
+							<ShortName>fog note b13.wav</ShortName>
+							<Path>SFX\fog note b13_10C4C929.wem</Path>
+						</File>
+						<File Id="865272793" Language="SFX">
+							<ShortName>fog note b10.wav</ShortName>
+							<Path>SFX\fog note b10_10C4C929.wem</Path>
+						</File>
+						<File Id="915422368" Language="SFX">
+							<ShortName>fog note b4.wav</ShortName>
+							<Path>SFX\fog note b4_10C4C929.wem</Path>
+						</File>
+						<File Id="1048429623" Language="SFX">
+							<ShortName>fog note b15.wav</ShortName>
+							<Path>SFX\fog note b15_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2776835297" Name="Play_chord_playlist" ObjectPath="\Events\Default Work Unit\Play_chord_playlist" DurationType="OneShot" DurationMin="5.5" DurationMax="6.5">
+					<IncludedMemoryFiles>
+						<File Id="634550906" Language="SFX">
+							<ShortName>Mysterious Fog chord 3.wav</ShortName>
+							<Path>SFX\Mysterious Fog chord 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="734302901" Language="SFX">
+							<ShortName>Mysterious Fog chord 1.wav</ShortName>
+							<Path>SFX\Mysterious Fog chord 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="818934923" Language="SFX">
+							<ShortName>Mysterious Fog chord 4.wav</ShortName>
+							<Path>SFX\Mysterious Fog chord 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="846932330" Language="SFX">
+							<ShortName>Mysterious Fog chord 2.wav</ShortName>
+							<Path>SFX\Mysterious Fog chord 2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7E32612-3B35-4306-9406-A891BC1C1314}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{A7E32612-3B35-4306-9406-A891BC1C1314}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{8AC8A278-D28E-4255-90BF-69221AEAA145}" ShortID="215465712">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="chord playlist" ID="{8E9E5090-B0AD-437F-9A5A-8774A44704EB}" ShortID="956976519">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mysterious Fog chord 4" ID="{E4AA48AA-0B1A-4FA7-99D3-57024DF11FBE}" ShortID="146190736">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 4" ID="{095FB148-C433-44A2-8E01-22B89093EC66}" ShortID="367296241">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>72</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 4" ID="{BB3448A6-ED11-4DF8-98A2-FB0C498CC621}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="818934923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A128A3FE-213F-439B-88AE-641DE6D3595E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{43A683F8-0C33-4FED-82AA-C69453A89D99}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 4" ID="{098C0C85-640C-45F6-A84D-8CC400BEB2E0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 4" ID="{BB3448A6-ED11-4DF8-98A2-FB0C498CC621}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{2E43D180-B11F-46B8-BB84-5045421DC639}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.44828</XPos>
+																										<YPos>-2.14401</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.18390804597701</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>2.86206896551724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.16092</XPos>
+																										<YPos>-3.39754</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{472D29E6-5967-4543-AD76-41678FC2B173}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{08FA6E99-E71E-4C16-8AC2-A66050F2DF58}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 1" ID="{C4493185-E0F9-4F9C-9E6A-ACD06EA08407}" ShortID="197696838">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 1" ID="{2F2CC169-01C7-49C9-8710-7DEF1450BD9B}" ShortID="628903119">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 1" ID="{95D0E0BA-6214-4390-8A60-C64677999B88}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="734302901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B49DB54D-163B-461E-A19D-A92AE146C48C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CBE0E9CA-8380-4E1E-AB5B-C053860DC7DD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 1" ID="{B59F6312-DEED-4287-8312-CD4CA03DC422}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 1" ID="{95D0E0BA-6214-4390-8A60-C64677999B88}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{8D7B7C12-2A22-4BFA-9383-455FE0679BD6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.001</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.5094</XPos>
+																										<YPos>-2.34077</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>2.01044932079415</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>3.76280041797283</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.04493</XPos>
+																										<YPos>-4.16988</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{75530EA0-0C7B-46E7-9664-DB6D03B5A185}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EDB758FD-E51D-4F55-9F9C-F4CC53FF8EA3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 2" ID="{D3D585F5-8054-49FF-84A5-D77996ECCECC}" ShortID="983336553">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 2" ID="{E8FE66EA-3F88-4D1D-AD89-6B27ECF59FBB}" ShortID="1025559701">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>72</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 2" ID="{BF4A8D96-67C3-4391-847D-EA3D9A1C7710}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="846932330"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{51198DE2-8424-45D9-8D7A-1C5B7ACA66EC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{701FA360-A855-4280-881C-414535124484}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 2" ID="{424B409C-F633-485D-A137-5D63C232CC78}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 2" ID="{BF4A8D96-67C3-4391-847D-EA3D9A1C7710}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{697B33D6-708A-48DD-8BA8-81CE30BE99C0}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.14943</XPos>
+																										<YPos>-2.76675</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.12644</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>4.58621</XPos>
+																										<YPos>-3.28588</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CE9BD29B-2FA4-4762-B9F8-B2FC8AB5A277}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C3EB8112-8C7D-4F2C-9560-C4152E556B82}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 3" ID="{1E2A2C6C-5D01-4E0C-8219-0A79CC05DB3E}" ShortID="308537497">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 3" ID="{F35B0E33-40D9-4641-A4A0-9D44F7047E0E}" ShortID="778007854">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 3" ID="{33583A5F-C879-4087-8AE5-0DD5BC47C974}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="634550906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AA952E90-1CB2-469C-83E9-96BDA12FB88E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{295F5875-08DA-4D1B-AABB-82F9C3FCD168}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 3" ID="{31BB95BA-B20B-4F32-BFC9-656B443C96D7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 3" ID="{33583A5F-C879-4087-8AE5-0DD5BC47C974}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{0CC071FF-EA40-4338-B5CF-84455FA8B1FA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.101880877742947</XPos>
+																										<YPos>-4.14252696936956</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.22936</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.58208</XPos>
+																										<YPos>-2.34077</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.05852</XPos>
+																										<YPos>-3.78216</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7655FA62-2A01-4C69-AC10-DC00C61BC1DB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{40FEDED4-54F3-47CA-B0B3-6B6F6C37DFA1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{67C7BD3A-0E9F-402D-9AAC-17698EADFA9B}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EB06DD92-F8F5-414A-AF9D-7354739B7CA4}">
+											<PropertyList>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="3"/>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{E23AB268-B832-47BB-8917-8E678321B02E}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{D5664F10-BD8B-40B4-98D0-F4FCAB3D2439}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B55C9FDE-A58B-4EB9-8E35-7E0DD71BC46F}" ShortID="385271426">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E9B4BCA8-4D35-44F4-9D1B-6A2CD60692AA}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{624BB9E2-4E74-42A6-B35A-9B53F7FE212D}" ShortID="134158597">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mysterious Fog chord 1" ID="{C4493185-E0F9-4F9C-9E6A-ACD06EA08407}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{83EBAFD0-2BEF-4CDD-BC57-60F04092B4D8}" ShortID="419210435">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mysterious Fog chord 2" ID="{D3D585F5-8054-49FF-84A5-D77996ECCECC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3FAC83D7-40C7-4990-8FE2-3231651751C0}" ShortID="1028471352">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mysterious Fog chord 3" ID="{1E2A2C6C-5D01-4E0C-8219-0A79CC05DB3E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5F2628FE-47BC-4496-9489-D52FDA2DD11D}" ShortID="1035416682">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Mysterious Fog chord 4" ID="{E4AA48AA-0B1A-4FA7-99D3-57024DF11FBE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSwitchContainer Name="chord switch" ID="{2A0607B4-5D10-4C79-B8AA-CC54670EE739}" ShortID="469684284">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Mysterious Fog chord 3" ID="{BE0112E5-A145-4382-BAD3-474DEE76616F}" ShortID="94847325">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 3" ID="{E381AFC1-897B-44AA-8B74-AC95C362B1CC}" ShortID="871997293">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 3" ID="{9F71F77D-93AB-4716-8D8B-575D2FB9027A}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="634550906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{22DCF1FD-ED80-4851-BF3B-07A82466D5C3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E2976A1B-37BF-433A-9FDA-220CB6B899D3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 3" ID="{C90D6984-8B21-450F-B4EE-423B6A9C1AE9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 3" ID="{9F71F77D-93AB-4716-8D8B-575D2FB9027A}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{4DF048F3-1EDE-49D9-AC9E-DCAC433D17AB}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.101880877742947</XPos>
+																										<YPos>-4.14252696936956</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.22936</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.58208</XPos>
+																										<YPos>-2.34077</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.05852</XPos>
+																										<YPos>-3.78216</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6CA12BE2-E428-40D8-A033-1EFF6833384D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1104E484-B53C-469E-A947-92DECA354DC0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 2" ID="{D1096917-C32E-401A-991B-46F6D6F526A5}" ShortID="367617677">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 2" ID="{4B7CA2FD-3DEF-4868-AE45-3089B9A50EBD}" ShortID="535089004">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>72</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 2" ID="{4121A9A4-108E-41C0-AFF1-57A158A89E18}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="846932330"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2D6CC504-D818-4A75-B1F7-8DC57F43084F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F7807DBB-A639-462D-810F-781729EFD311}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 2" ID="{DF445A8F-6335-4454-9961-5B50D6E72F5C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5500"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 2" ID="{4121A9A4-108E-41C0-AFF1-57A158A89E18}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F934551C-7E0E-4D17-8E3A-80CD7240EC7C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.14943</XPos>
+																										<YPos>-2.76675</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.12644</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>4.58621</XPos>
+																										<YPos>-3.28588</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F51DCB50-BFAF-412C-B4D7-69B551418882}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0463B463-6F7A-485A-B842-7DFD377ED6D5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 1" ID="{434DD589-7AD8-4536-AFC2-99BE79C68DD7}" ShortID="752658120">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6547.10144927536"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 1" ID="{55C909BE-9DA2-4D73-9802-3D82D6083F2B}" ShortID="933467226">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 1" ID="{524790DA-7E18-4C6C-8F0C-32D6DB28C1E6}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="734302901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{903892CB-CEEB-4825-B02D-07A4446ABEC4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{39B6121B-E9BE-40CA-B86B-8B9DA17EC09F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 1" ID="{1E50DBD9-1F8A-49D1-806E-F09CFB449FFE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 1" ID="{524790DA-7E18-4C6C-8F0C-32D6DB28C1E6}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{3B52C59C-9438-40F1-8D35-CB6F4A20B933}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.001</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.5094</XPos>
+																										<YPos>-2.34077</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>2.01044932079415</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>3.76280041797283</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.04493</XPos>
+																										<YPos>-4.16988</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B84A6754-E5A1-4CBB-BCD5-2E6FF795302D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B22A7957-52EA-412C-9984-1DAD7D4EAA87}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="6500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Mysterious Fog chord 4" ID="{0C54FB21-61BA-49B7-9504-38DB20E92CD5}" ShortID="731845453">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1225A3C8-1C37-4A00-B012-987AA9A70983}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Mysterious Fog chord 4" ID="{26669F66-74E9-4E84-B04C-7B1C5BA4E4F0}" ShortID="234209919">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>72</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E6DF2FD-6D64-4690-A2D2-7C0E1B6D6C04}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Mysterious Fog chord 4" ID="{D800456D-6696-4A85-A6E8-B7E258E91C4C}">
+													<Language>SFX</Language>
+													<AudioFile>Mysterious Fog chord 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="818934923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C82A912C-A66C-43A0-9A19-8BE31A1B1B89}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D12FE4F9-1CDE-441F-9AC5-567E169F7D1D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Mysterious Fog chord 4" ID="{17D46ECD-E8BC-4A6B-90D8-8743AB824D9F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Mysterious Fog chord 4" ID="{D800456D-6696-4A85-A6E8-B7E258E91C4C}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{BAEE6145-88CF-4132-89FC-A75D9B8EA23C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>0.44828</XPos>
+																										<YPos>-2.14401</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1.18390804597701</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>2.86206896551724</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.16092</XPos>
+																										<YPos>-3.39754</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>5.5</XPos>
+																										<YPos>-96.3</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{509861A5-9ED3-453D-8691-F5AB1327CA7E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FBD871FE-5D46-4A29-ACC6-27EA51F81D1C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5500"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C87E98D3-ECF6-412A-AFB0-93F17FC9D049}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3E471276-846E-4EEF-9F8E-6C8B1FCA6A5F}">
+											<PropertyList>
+												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="3"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{13FF8534-F8F4-4A45-90CE-D2154A286592}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<ArgumentList>
+								<ArgumentRef Name="New_Switch_Group" ID="{F6C64E2F-E583-4B5B-B5D6-65C01478C9ED}"/>
+							</ArgumentList>
+							<EntryList>
+								<Entry>
+									<Path>
+										<PathElementRef Name="New_Switch_Group" ID="{F6C64E2F-E583-4B5B-B5D6-65C01478C9ED}"/>
+									</Path>
+									<AudioNodeInfo>
+										<AudioNodeRef Name="Mysterious Fog chord 2" ID="{D1096917-C32E-401A-991B-46F6D6F526A5}" WorkUnitID="{A7E32612-3B35-4306-9406-A891BC1C1314}" Platform="Linked"/>
+									</AudioNodeInfo>
+								</Entry>
+							</EntryList>
+						</MusicSwitchContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
